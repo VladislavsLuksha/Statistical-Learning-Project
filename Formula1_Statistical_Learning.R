@@ -24,7 +24,7 @@ library(randomForest)
 library(stringr)
 library(FactoMineR)
 
-df <- read_csv("/Users/vladislavluksha/Downloads/formula1.csv")
+df <- read_csv("https://raw.githubusercontent.com/VladislavsLuksha/Statistical-Learning-Project/main/formula1.csv")
 df <- as.data.frame(df)
 colnames(df)
 
